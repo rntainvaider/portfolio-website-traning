@@ -1,0 +1,37 @@
+.header {
+    margin-bottom: 179px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 41px 0;
+}
+
+.header__logo-image {
+    display: block;
+}
+
+.header__menu {
+    display: flex;
+    gap: 54px;
+}
+
+.header__menu-link {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--dark-content);
+}
+
+.header__social-contacts {
+    display: flex;
+    gap: 20px;
+}
+
+.header__social-contact_image {
+    display: block;
+    color: var(--dark-content);
+}

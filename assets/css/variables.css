@@ -1,4 +1,6 @@
 :root {
+    --dark-content: #666;
+
     --font-family: "Poppins", sans-serif;
     --second-family: "DM Sans", sans-serif;
 }

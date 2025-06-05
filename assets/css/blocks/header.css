@@ -24,6 +24,18 @@
     font-size: 20px;
     line-height: 130%;
     color: var(--dark-content);
+    position: relative;
+}
+
+.header__menu-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: var(--solid-heading);
+    transition: 0.3s ease;
 }
 
 .header__social-contacts {
@@ -34,4 +46,15 @@
 .header__social-contact_image {
     display: block;
     color: var(--dark-content);
+    transition: color 0.3s ease;
+}
+
+@media (hover: hover) {
+    .header__social-contact_image:hover {
+        color: var(--solid-heading);
+    }
+
+    .header__menu-link:hover::before {
+        width: 100%;
+    }
 }

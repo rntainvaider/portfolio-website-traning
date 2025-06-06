@@ -1,0 +1,30 @@
+.hero {
+    margin-bottom: 350px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__welcome {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
+    color: var(--solid-heading);
+}
+
+.hero__welcome span {
+    background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero__image {
+    width: 349px;
+    height: 349px;
+}

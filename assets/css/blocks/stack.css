@@ -1,0 +1,27 @@
+.stack {
+    margin-bottom: 190px;
+}
+
+.stack__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54%;
+    text-align: center;
+    color: var(--solid-heading);
+    margin-bottom: 49px;
+}
+
+.stack__description {
+    font-size: 32px;
+    line-height: 81%;
+    text-align: center;
+    color: var(--dark-content);
+    margin-bottom: 140px;
+}
+
+.stack__images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 80px;
+    place-items: center;
+}

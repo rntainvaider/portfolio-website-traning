@@ -5,6 +5,7 @@
 body {
     font-family: var(--font-family);
     color: var(--dark-content);
+    background-color:  #ccc;
 }
 
 .container {
